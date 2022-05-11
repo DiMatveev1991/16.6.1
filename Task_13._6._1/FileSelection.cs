@@ -11,8 +11,8 @@ namespace Task_13._6._1
        public  static string fileSelection()
         {
             ColourPrint.ColourPrintBlue("\nУкажите полный путь до тестируемого текстового файла:");
-            // string file_path = Console.ReadLine();
-            string file_path = @"T:\204.3\Сотрудники\Матвеев\Загрузки\Text1.txt";
+            string file_path = Console.ReadLine();
+            // string file_path = @"T:\204.3\Сотрудники\Матвеев\Загрузки\Text1.txt";
             if (File.Exists(file_path))
             {
                 ColourPrint.ColourPrintGreen ("\nФайл найден и принят программой.");
